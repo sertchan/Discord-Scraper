@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node ./src/index.js"
   },
+  "eslintConfig": {
+		"extends": "aqua/prettier/node"
+	},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -23,5 +26,11 @@
     "gradient-string": "^2.0.1",
     "nanospinner": "^1.1.0",
     "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-aqua": "^9.2.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.7.1"
   }
 }
