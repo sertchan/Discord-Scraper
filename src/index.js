@@ -39,12 +39,24 @@ async function shuffle(sourceArray) {
 }
 
 async function files() {
+    if (!fs.existsSync(`src\\database`)) {
+        await fs.mkdirSync(`src\\database`)
+    }
+
     if (!fs.existsSync(`src\\database\\${process.env.GUILDID}`)) {
-    fs.mkdirSync(`src\\database\\${process.env.GUILDID}`)
+     fs.mkdirSync(`src\\database\\${process.env.GUILDID}`)
+    }
+
+    if (!fs.existsSync(`src\\username`)) {
+        await fs.mkdirSync(`src\\username`)
     }
 
     if (!fs.existsSync(`src\\username\\${process.env.GUILDID}`)) {
-        fs.mkdirSync(`src\\username\\${process.env.GUILDID}`)
+       await fs.mkdirSync(`src\\username\\${process.env.GUILDID}`)
+    }
+
+    if (!fs.existsSync(`src\\pfp`)) {
+       await fs.mkdirSync(`src\\pfp`)
     }
 
     if (!fs.existsSync(`src\\pfp\\${process.env.GUILDID}`)) {
@@ -54,8 +66,8 @@ async function files() {
     if (fs.existsSync(`src\\pfp\\${process.env.GUILDID}`)) {
         fsExtra.emptyDirSync(`src\\pfp\\${process.env.GUILDID}`)
     }
-
     await fs.createWriteStream(`src\\username\\${process.env.GUILDID}\\username.txt`, { overwrite: false })
+    await sleep(500)
     fs.truncateSync(`src\\username\\${process.env.GUILDID}\\username.txt`, 0)
 }
 

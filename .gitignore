@@ -1,3 +1,5 @@
 node_modules
 .env
-
+src/pfp/*
+src/database/*
+src/username/*
