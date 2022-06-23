@@ -38,7 +38,7 @@ $ npm install
 ### Usage
 
 ```
-node . or npm start
+node . or pnpm/npm start
 ```
 
 ### Some ScreenShots
