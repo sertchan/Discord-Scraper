@@ -23,7 +23,7 @@ FORMAT=png
 
 You will need the following javascript modules installed: chalk, chalk-animation, discord.js-selfbot-v13, dotenv, easy-json-database , follow-redirects , fs, fs-extra, gradient-string, nanospinner, uniqid.
 
-If you have [pnpm](https://pipenv.kennethreitz.org/en/latest/) installed you can run:
+If you have [pnpm](https://pnpm.io/) installed you can run:
 
 ```sh
 $ pnpm install
