@@ -18,7 +18,6 @@
     "fs": "0.0.1-security",
     "fs-extra": "^10.1.0",
     "gradient-string": "^2.0.1",
-    "image-downloader": "^4.3.0",
     "nanospinner": "^1.1.0",
     "uniqid": "^5.4.0"
   }
