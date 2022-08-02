@@ -1,5 +1,6 @@
 # Discord Server Scraper
 
+Dont Forget to give project a start if you enjoyed it.
 ⚠ That project uses discord.js selfbot api so the risks you take are your own.
 
 The goal of this simple javascript project is scrapeing users profile pictures, usernames, ids, profile picture urls:

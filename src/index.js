@@ -4,17 +4,16 @@ import { Client } from "discord.js-selfbot-v13"
 import Database from "easy-json-database"
 import chalkAnimation from 'chalk-animation'
 import { createSpinner } from "nanospinner"
-import downapi from 'follow-redirects'
 import figlet from "figlet"
 import fs from 'fs'
 import fsExtra from 'fs-extra'
 import gradient from "gradient-string"
+import https from 'https'
 import uniqid from 'uniqid'
 
-const { https } = downapi
-
-
-const client = new Client()
+const client = new Client({
+        checkUpdate: false,
+      })
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 
@@ -29,9 +28,9 @@ function download(url) {
 }
 
 async function shuffle(sourceArray) {
-    for (var i = 0; i < sourceArray.length - 1; i++) {
-        var j = i + Math.floor(Math.random() * (sourceArray.length - i))
-        var temp = sourceArray[j]
+    for (let i = 0; i < sourceArray.length - 1; i++) {
+        let j = i + Math.floor(Math.random() * (sourceArray.length - i))
+        let temp = sourceArray[j]
         sourceArray[j] = sourceArray[i]
         sourceArray[i] = temp
     }
@@ -73,7 +72,7 @@ async function files() {
 
 
 async function welcome() {
-    var author = chalkAnimation.karaoke(`[Ready] Loggined as ${client.user.tag}\n`)
+    let author = chalkAnimation.karaoke(`[Ready] Loggined as ${client.user.tag}\n`)
     figlet(`Discord Server Scraper`, async(_err, data) => {
         console.log(gradient.pastel.multiline(data))
         await author.start()
@@ -84,7 +83,7 @@ async function welcome() {
 
 async function scrape() {
     const db = new Database(`./src/database/${process.env.GUILDID}/database.json`)
-    var memberid =  await shuffle((await (await client.guilds.fetch(process.env.GUILDID)).members.fetch()).filter(x => x.user.id !== null && !x.user.bot).map(r => r.user.id))
+    let memberid =  await shuffle((await (await client.guilds.fetch(process.env.GUILDID)).members.fetch({limit: 0})).filter(x => x.user.id !== null && !x.user.bot).map(r => r.user.id))
     db.set('id', memberid )
     db.set('url', [])
     let l = memberid.length
