@@ -43,9 +43,9 @@ node . or pnpm/npm start
 
 ### Some ScreenShots
 
-![Console Output](https://i.imgur.com/jhEDBXv.png)
-![Twitter account activity](https://i.imgur.com/mtnXdpC.png)
-![pfps](https://i.imgur.com/JeVwuDG.jpeg)
+![Console Output](https://cdn.discordapp.com/attachments/1001955561274876057/1004373037891723264/unknown.png)
+![Twitter account activity](https://cdn.discordapp.com/attachments/1001955561274876057/1004372701714071593/unknown.png)
+![pfps](https://cdn.discordapp.com/attachments/1001955561274876057/1004373286467154021/unknown.png)
 
 ## License
 
