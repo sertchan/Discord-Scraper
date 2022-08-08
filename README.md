@@ -1,6 +1,6 @@
 # ✨ Discord Guild Scraper ✨
 
-⭐ Dont Forget to give project a star! For helping people who needs this tool!
+⭐ Dont Forget to give this wonderful project a star! For helping people who needs this tool!
 
 🔥 If this tool has been useful for you and saved your day, please feel free to thank me by buying me a coffee!
 
