@@ -13,7 +13,9 @@ There are plenty of things that could be added to the script, feel free to contr
 
 ### Installation
 
-First, create your .env file using .env.example or you can just use this template:
+(We currently cannot support bun cause of bun does not support node http api which is used in discord-selfbot-v13)
+
+First, create your .env file using .env.example (rename it to .env) !If you wont do it causes token error:
 
 ```
 GUILDID=xxxx
@@ -41,7 +43,7 @@ $ npm install
 node . or pnpm/npm start
 ```
 
-### Some ScreenShots
+### Some Screenshots from project
 
 ![Console Output](https://cdn.discordapp.com/attachments/1001955561274876057/1004373037891723264/unknown.png)
 ![Twitter account activity](https://cdn.discordapp.com/attachments/1001955561274876057/1004372701714071593/unknown.png)
