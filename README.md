@@ -2,7 +2,7 @@
 
 ⭐ Dont Forget to give project a star! For helping people who needs this tool!
 
-🔥 If this tool has been useful for you, feel free to thank me by buying me a coffee 
+🔥 If this tool has been useful for you, feel free to thank me by buying me a coffee (Filter coffee and Espresso especially) :D 
 
 [![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sertchan)
 
@@ -43,13 +43,13 @@ Otherwise you can use:
 $ npm install
 ```
 
-### Usage
+### Simple Usage
 
 ```
-node . or pnpm/npm start
+node . 
 ```
 
-### Some Screenshots from project 😎
+### 😎 Some Screenshots from the project 
 
 ![Console Output](https://cdn.discordapp.com/attachments/1001955561274876057/1004373037891723264/unknown.png)
 ![Twitter account activity](https://cdn.discordapp.com/attachments/1001955561274876057/1004372701714071593/unknown.png)
