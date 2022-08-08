@@ -15,7 +15,7 @@
 - 🚩 You could use id's from json database.
 - 🚩 Feel free to open issues.
 
-👍 There are plenty of things that could be added to the script, feel free to contribute! 🏽
+👍 There are plenty of things that could be added to the script, feel free to contribute! 
 
 ### Installation
 
