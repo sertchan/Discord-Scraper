@@ -1,4 +1,4 @@
-# Discord Server Scraper
+# Discord Guild Scraper
 
 ⭐ Dont Forget to give project a star! For helping people who needs this tool!
 
@@ -8,7 +8,7 @@
 
 ⚠️ This project uses discord.js selfbot api so the risks you take are your own.
 
-✨ The goal of the project is scraping users in specifed guild. Scrapes profile pictures, usernames, ids, profile picture urls. ✨
+✨ The goal of the project is scraping users in specifed guild. Scrapes pfp's, usernames, ids, pfp url's. 
 
 💗 I'm already so so much appreciated who gives star the project or supports me on buy me a coffe! 
 
@@ -17,6 +17,7 @@
 -  You could use id's from json database.
 -  Bot creates specific folders for guilds so it is really easy to handle.
 -  I used local json database for safety accessibility.
+-  It is not possiable to rewrite this project with using discord res api due restrictions. 
 
 😶‍🌫️ I added all of thing could scaraped as an normal user on api. Scraping banners. Bio's etc. as a normal user does not allowed in discord.js api. Thanks for patience.
 
