@@ -2,7 +2,7 @@
 
 ⭐ Dont Forget to give project a star! For helping people who needs this tool!
 
-🔥 If this tool has been useful for you, feel free to thank me by buying me a coffee (Filter coffee and Espresso especially) :D 
+🔥 If this tool has been useful for you and saved your day, feel free to thank me by buying me a coffee! (Filter coffee and Espresso especially) :D 
 
 [![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sertchan)
 
@@ -10,10 +10,15 @@
 
 ✨ The goal of the project is scraping users in specifed guild. Scrapes profile pictures, usernames, ids, profile picture urls. ✨
 
-- 🚩 You can scrape profile pictures on 'webp' | 'png' | 'jpg' | 'jpeg' formats.
-- 🚩 You can reach usernames of all users from txt.
-- 🚩 You could use id's from json database.
-- 🚩 Feel free to open issues.
+💗 I'm already so so much appreciated who gives star the project or supports me on buy me a coffe! 
+
+-  You can scrape profile pictures on 'webp' | 'png' | 'jpg' | 'jpeg' formats.
+-  You can reach usernames of all users from txt.
+-  You could use id's from json database.
+-  Bot creates specific folders for guilds so it is really easy to handle.
+-  I used local json database for safety accessibility.
+
+😶‍🌫️ I added all of thing could scaraped as an normal user on api. Scrapeing banners. Bio's etc. as a normal user does not allowed in discord.js api. Thanks for patience.
 
 👍 There are plenty of things that could be added to the script, feel free to contribute! 
 
