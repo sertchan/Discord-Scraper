@@ -1,4 +1,4 @@
-# ✨ Discord Guild Scraper ✨
+# ✨ Discord Guild Members Scraper ✨
 
 ⭐ Dont Forget to give this wonderful project a star! For helping people who needs this tool!
 
@@ -16,7 +16,7 @@
 -  You can reach usernames of all users from txt.
 -  You could use id's from json database.
 -  Bot creates specific folders for guilds so it is really easy to handle.
--  I used local json database for safety accessibility.
+-  I used local json database for safety and accessibility.
 -  It is not possiable to rewrite this project with using discord res api due restrictions. 
 
 😶‍🌫️ I added all of thing could scaraped as an normal user on api. Scraping banners. Bio's etc. as a normal user does not allowed in discord.js api. Thanks for patience.
