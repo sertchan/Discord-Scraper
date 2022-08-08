@@ -8,20 +8,20 @@
 
 ⚠️ This project uses discord.js selfbot api so the risks you take are your own.
 
-✨ The goal of this simple javascript project is scraping users in specifed guild profile pictures, usernames, ids, profile picture urls ✨
+✨ The goal of the project is scraping users in specifed guild. Scrapes profile pictures, usernames, ids, profile picture urls. ✨
 
-- You can scrape profile pictures on 'webp' | 'png' | 'jpg' | 'jpeg' formats.
-- You can reach usernames of all users from txt.
-- You could use id's from database. I wrote them.
-- Feel free to open issues.
+- 🚩 You can scrape profile pictures on 'webp' | 'png' | 'jpg' | 'jpeg' formats.
+- 🚩 You can reach usernames of all users from txt.
+- 🚩 You could use id's from json database.
+- 🚩 Feel free to open issues.
 
-There are plenty of things that could be added to the script, feel free to contribute! 👍🏽
+👍 There are plenty of things that could be added to the script, feel free to contribute! 🏽
 
 ### Installation
 
-😔 We currently cannot support bun because bun does not support node http api which is used in discord-selfbot-v13
+😔 We currently cannot support bun because bun.js does not support node http/https api which is used in discord-selfbot-v13.
 
-First, create your .env file using .env.example (rename it to .env). If you wont do it causes token error
+First, create your .env file using .env.example (rename it to .env). If you wont do it causes token error.
 
 ```
 GUILDID=xxxx
@@ -29,7 +29,7 @@ TOKEN=xxx
 FORMAT=png
 ```
 
-You will need the following javascript modules installed: chalk, chalk-animation, discord.js-selfbot-v13, dotenv, easy-json-database , follow-redirects , fs, fs-extra, gradient-string, nanospinner, uniqid.
+🎀 You will install that npm modules: chalk, chalk-animation, discord.js-selfbot-v13, dotenv, easy-json-database , fs, fs-extra, gradient-string, nanospinner, uniqid.
 
 If you have [pnpm](https://pnpm.io/) installed you can run:
 
@@ -46,7 +46,7 @@ $ npm install
 ### Simple Usage
 
 ```
-node . 
+node . or node ./src/index.js
 ```
 
 ### 😎 Some Screenshots from the project 
@@ -57,5 +57,5 @@ node .
 
 ## License
 
-MIT License
+MIT License 💖
 
