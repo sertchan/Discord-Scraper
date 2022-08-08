@@ -3,6 +3,7 @@
 ⭐ Dont Forget to give project a star! For helping people who needs this tool!
 
 🔥 If this tool has been useful for you, feel free to thank me by buying me a coffee 
+
 [![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/sertchan)
 
 ⚠️ This project uses discord.js selfbot api so the risks you take are your own.
