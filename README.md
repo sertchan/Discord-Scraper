@@ -9,14 +9,6 @@
 
 - ⭐ Dont Forget to give this wonderful project a star! For helping people who needs this tool!
 
-- 🔥 If this tool has been useful for you and saved your day, please feel free to thank me by buying me a coffee!
-
-<center>
-<a href="https://www.buymeacoffee.com/sertchan"  target="_blank">
-  <img src='https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png'>
-</a>
-</center>
-
 - ⚠️ This project uses discord.js selfbot api so the risks you take are your own.
 
 - 🎌 The goal of the project is scraping users in specifed guild. Scrapes pfp's, usernames, ids, pfp url's. 
