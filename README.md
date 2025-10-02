@@ -2,13 +2,11 @@
 <h1>Discord Guild Members Scraper</h1>
 </center>
 
-- ⭐ Dont Forget to give this wonderful project a star! For helping people who needs this tool!
+- ⭐ Dont Forget to give this project a star! For helping people who needs this tool!
 
 - ⚠️ This project uses discord.js selfbot api so the risks you take are your own.
 
 - 🎌 The goal of the project is scraping users in specifed guild. Scrapes pfps, usernames, ids, pfp urls. 
-
-- 💗 I'm already so so much appreciated who gives star the project! 
 
 <center> 
 <h1>👾 Features </h1>
