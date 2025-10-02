@@ -1,0 +1,36 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "eslintConfig": {
+    "extends": "aqua/prettier/node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.2",
+    "discord.js-selfbot-v13": "^2.4.7",
+    "dotenv": "^16.0.1",
+    "easy-json-database": "^1.5.0",
+    "figlet": "^1.5.2",
+    "follow-redirects": "^1.15.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.1.0",
+    "gradient-string": "^2.0.1",
+    "nanospinner": "^1.1.0",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "eslint-config-aqua": "^9.2.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
